@@ -3,9 +3,9 @@ function calculateProfit(amount, rate) {
 }
 
 function logic(amount, rate, target) {
-  amount = parseInt(amount);
-  rate = parseInt(rate);
-  target = parseInt(target);
+  amount = parseFloat(amount);
+  rate = parseFloat(rate);
+  target = parseFloat(target);
 
   console.log("Target calulation start with amount ", amount);
   let i = 1;
