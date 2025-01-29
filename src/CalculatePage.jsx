@@ -41,6 +41,10 @@ const CalculatePage = () => {
       differenceBetweenSellAndBuy,
       sellRate: rateFloat,
     });
+
+    setBuyPrice("");
+    setRate("");
+    setQuantity("");
   };
 
   return (
